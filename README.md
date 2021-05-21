@@ -8,15 +8,23 @@ This repository is not directly linked since a lot of info is private. In the .p
 Standard
 - Role selection
 - Ask the bot a question
+
 ![alt text](https://i.imgur.com/dKTjqC6.png)
+
 - help/welcome messages
 - reddit posts with command
+
 ![alt text](https://i.imgur.com/v0WiA1k.png)
 
 Self-created
 - !citaat command -> displays a fun sentance someone once said from the list of sentances
+
 ![alt text](https://i.imgur.com/oyeNyE8.png)
+
 - !nostalgie command -> displays a fun picture from the group from a private folder
+
 ![alt text](https://i.imgur.com/bf7f9cJ.png)
+
 - De Mol minigame (contest)
+
 ![alt text](https://i.imgur.com/dICQXKm.png)
