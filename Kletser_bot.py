@@ -9,12 +9,12 @@ from datetime import datetime
 intents = discord.Intents.all()
 help_command = commands.DefaultHelpCommand(no_category='Commands')
 client = commands.Bot(command_prefix='!', intents=intents, help_command=help_command)
-token = 'ODAxMTYyODgxMDQyMjE5MDc5.YAcrEw.1d9i-Of0yh4EiQlUNptmrR1JSgQ'
-reddit = praw.Reddit(client_id='IGSi1LmamB_o3Q',
-                     client_secret='GivpZpMSyHZaof_ulueL1sBcdZ8y_g',
-                     username='kletserpraw',
-                     password='KletserDiscord1',
-                     user_agent='KletserBot')
+token = 'YOUR TOKEN HERE'
+reddit = praw.Reddit(client_id='YOUR ID HERE',
+                     client_secret='YOUR SECRET HERE',
+                     username='YOUR USER HERE',
+                     password='YOUR PASS HERE',
+                     user_agent='YOUR AGENT HERE')
 @client.event
 async def on_ready():
     birthday_alert.start()
@@ -161,8 +161,8 @@ async def vraag(context, *, question):
 
 @client.command()
 async def nostalgie(context):
-    client_id = "6959872ec510f09"
-    album_key = "WwpJlzS"
+    client_id = "YOUR CLIENT ID"
+    album_key = "YOUR ALBUM ID"
     r = requests.get(f"https://api.imgur.com/3/album/{album_key}/images?client_id={client_id}").json()
     pictures = []
 
